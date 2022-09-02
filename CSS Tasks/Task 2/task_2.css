@@ -1,0 +1,40 @@
+body{
+    background-color: palevioletred;
+    
+}
+#Box1
+{
+    background-color: #faa00f;
+    border: 3px;
+    border-style: dashed;
+    padding: 30px;
+    z-index: none;
+
+
+}
+#Box2
+{
+    position: relative;
+    background-color: aqua;
+    border: 3px;
+    border-style: dashed;
+    padding: 30px;
+    width: 50%;
+    margin-top: -50px;
+}
+a{
+    background-color: #0a0ff0; color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+ol{
+    background-color: aliceblue;
+    text-align: center;
+    list-style-type: none;
+    
+}
+li{
+    padding: 10px;
+    text-decoration: underline;
+}

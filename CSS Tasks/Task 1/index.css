@@ -1,0 +1,19 @@
+*{
+    background-color : royalblue; border: 1px solid rgb(0, 0, 0); border-radius: 10px; padding: 10px;
+}
+#rakesh
+{
+    background-color: yellowgreen; border: 1px solid green; border-radius: 10px; padding: 10px;
+}
+.kiran
+{
+    background-color: gray; border: 1px solid magenta; border-radius: 10px; padding: 10px;
+}
+#sachin
+{
+    background-color: rgb(153, 34, 34); border: 1px solid rgb(61, 13, 61); border-radius: 10px; padding: 10px;
+}
+ol
+{
+    background-color: lavender;
+}

@@ -1,0 +1,25 @@
+body
+{
+    background-color: blueviolet;
+}
+#boxes
+{
+    background-color: red;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 70% 30%;
+    border: 2px solid black;
+}
+.box
+{
+    background-color: aqua;
+    width: 100%;
+    height: 20vh;
+    border: 2px solid black;
+}
+#box1{grid-column: 1/4;}
+
+#box4{grid-column: 1/3;}

@@ -1,0 +1,35 @@
+body
+{
+    background-color: blueviolet;
+}
+#boxes
+{
+    background-color: aqua;
+    border: 2px solid black;
+    width: 70vw;
+    height: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.box
+{
+    background-color: red;
+    border: 1px solid black;
+    height: 150px;
+    width: 180px;
+
+}
+#box1
+{
+    /* display: flex; */
+    flex-grow: 2;
+}
+#box6
+{
+    flex-shrink: 4;
+}
+#box5
+{
+    
+    flex-grow: 2;

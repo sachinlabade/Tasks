@@ -1,0 +1,123 @@
+*{
+   margin: 0; 
+   padding: 0;
+   box-sizing: border-box;
+}
+body{
+     background-image:linear-gradient(to right,rgb(225, 11, 18),rgb(22, 23, 23));
+}
+.div{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    height: 100vh;
+}
+#div1{
+    display: flex;
+    justify-content: center;
+    border-radius: 7px;
+    font-family: Roboto,Arial,sans-serif;
+    width:50%;
+    height: 100%;
+}
+#p{
+    margin-top: 30px;
+}
+#email{
+    outline: none;
+    border-bottom: 1px solid black;
+}
+#password{
+    outline: none;
+    border-bottom: 1px;
+    border-bottom: 1px solid black;
+    margin-top: 30px;
+}
+#div2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height:80vh !important;
+    padding: 20px;
+    width: 22vw;
+    background-color: #9a0d79;
+    color: white;
+    border:1px;
+}
+#div3{
+    background-color: white;
+    height: 80vh !important;
+    padding: 25px;
+    width: 40vw;
+    border: 1px;
+    position: relative;
+}
+input{
+    border: none;
+    padding: 10px;
+    width: 100%;
+}
+#forget{
+    position:absolute;
+     right: 3rem;
+     top: 6rem;
+
+}
+a{
+    text-decoration: none;
+}
+#p2{
+   margin-top: 3rem;
+   font-size: smaller !important;
+}
+#login{
+    background-color: #2e13a9;
+    color: white;
+    padding: 1rem;
+    width: 100%;
+    margin-top: 5px;
+    border-radius: 5px;
+    font-family: Roboto,Arial,sans-serif;
+    font-weight:700;
+    font-size: large;
+}
+#or{
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+#button{
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    margin-top: 10px;
+    border-radius: 5px;
+font-family: Roboto,Arial,sans-serif;
+font-size: large;
+font-weight: 300;
+ box-shadow: 2px 2px #D9D9D9;
+/* border-right: 1px solid black; */
+}
+#link{
+    font-style: bold;
+    margin-top: 7rem;
+    text-align: center;
+    font-size: small;
+    font-weight: 550;
+    color: #64BDF8;
+}
+@media only screen and (max-width:500px)
+{
+ #div1{
+    display: flex;
+     flex-direction: column; 
+    width: 100%;
+ }
+ #div2{
+    width: 100%;
+ }
+ #div3{
+    width: 100%;
+ }
+}

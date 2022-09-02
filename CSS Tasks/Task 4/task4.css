@@ -1,0 +1,21 @@
+body
+{
+background-color: palegreen;
+}
+#box1
+{
+background-color: aqua;
+border: 2px solid black;
+margin: 10px;
+min-width: 100px;
+min-height: 400px;
+
+}
+#box2
+{
+    background-color: aqua;
+    border: 2px solid black;
+    margin: 10px;
+    max-width: 400px;
+    max-height: 400px;
+}
